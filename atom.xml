@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>我的博客</title>
+  
+  <subtitle>My blog</subtitle>
+  <link href="http://example.com/atom.xml" rel="self"/>
+  
+  <link href="http://example.com/"/>
+  <updated>2025-06-29T07:38:43.707Z</updated>
+  <id>http://example.com/</id>
+  
+  <author>
+    <name>John Doe</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>welcome to my blog</title>
+    <link href="http://example.com/2025/06/29/welcome-to-my-blog/"/>
+    <id>http://example.com/2025/06/29/welcome-to-my-blog/</id>
+    <published>2025-06-29T07:34:02.000Z</published>
+    <updated>2025-06-29T07:38:43.707Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;hello&quot;&gt;&lt;a href=&quot;#hello&quot; class=&quot;headerlink&quot; title=&quot;hello!&quot;&gt;&lt;/a&gt;hello!&lt;/h2&gt;&lt;h2 id=&quot;这是我的个人博客&quot;&gt;&lt;a href=&quot;#这是我的个人博客&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    
+  </entry>
+  
+</feed>
