@@ -1,6 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>welcome to my blog</title>
+    <url>/2025/06/29/welcome-to-my-blog/</url>
+    <content><![CDATA[<h2 id="hello">hello!</h2>
+<h2 id="这是我的个人博客">这是我的个人博客</h2>
+<h3 id="用hexo搭建">用Hexo搭建</h3>
+<p><a href="https://space.bilibili.com/1558680992">在Bilibili哔哩哔哩关注我</a></p>
+<p><a href="https://www.luogu.com.cn/user/1403817">在Luogu洛谷关注我</a></p>
+<h2 id="the-end">THE END</h2>
+]]></content>
+  </entry>
+  <entry>
     <title>About me</title>
     <url>/2025/06/29/About-me/</url>
     <content><![CDATA[<h3 id="name-struct-struct-作作业业业-世界上就不应该有作业-皓哥-皓哥有78-haoge78">Name: <em>struct</em> / <em>struct</em>_ / <em>作作业业业</em> / <em>世界上就不应该有作业</em> / <em>皓哥</em> / <em>皓哥有78</em> / <em>haoge78</em></h3>
@@ -24,17 +35,6 @@
 <p>7.<a href="https://zh.y8.com/">Y8小游戏</a></p>
 <p>8.<a href="https://www.zhiwudazhanjiangshi.com/">植物大战僵尸</a></p>
 <h6 id="都看到这里了-不妨关注我b站"><s>都看到这里了，不妨<a href="https://space.bilibili.com/1558680992">关注我B站</a></s></h6>
-]]></content>
-  </entry>
-  <entry>
-    <title>welcome to my blog</title>
-    <url>/2025/06/29/welcome-to-my-blog/</url>
-    <content><![CDATA[<h2 id="hello">hello!</h2>
-<h2 id="这是我的个人博客">这是我的个人博客</h2>
-<h3 id="用hexo搭建">用Hexo搭建</h3>
-<p><a href="https://space.bilibili.com/1558680992">在Bilibili哔哩哔哩关注我</a></p>
-<p><a href="https://www.luogu.com.cn/user/1403817">在Luogu洛谷关注我</a></p>
-<h2 id="the-end">THE END</h2>
 ]]></content>
   </entry>
 </search>
