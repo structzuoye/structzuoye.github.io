@@ -19,24 +19,29 @@
 
 <script class="next-config" data-name="main" type="application/json">{"hostname":"example.com","root":"/","images":"/images","scheme":"Gemini","darkmode":false,"version":"8.24.1","exturl":false,"sidebar":{"position":"left","width_expanded":320,"width_dual_column":240,"display":"post","padding":18,"offset":12},"hljswrap":true,"codeblock":{"theme":{"light":"default","dark":"stackoverflow-dark"},"highlight_theme":"night eighties","show_lines":true,"prism":{"light":"prism","dark":"prism-dark"},"copy_button":true,"fold":{"enable":false,"height":500},"language":false},"bookmark":{"enable":false,"color":"#222","save":"auto"},"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":true,"nav":null},"stickytabs":false,"motion":{"enable":true,"async":false,"duration":200,"transition":{"menu_item":"fadeInDown","post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"prism":false,"i18n":{"placeholder":"搜索...","empty":"没有找到任何搜索结果：${query}","hits_time":"找到 ${hits} 个搜索结果（用时 ${time} 毫秒）","hits":"找到 ${hits} 个搜索结果"}}</script><script src="/js/config.js" defer></script>
 
-    <meta name="description" content="作作业业业">
-<meta property="og:type" content="website">
-<meta property="og:title" content="Blog">
-<meta property="og:url" content="http://example.com/index.html">
+    <meta name="description" content="Hexo搭建博客准备工具在开始之前请先    下载git，点击download for windows即可。   下载nodejs，下载长期支持版本。 下载steam++  接下来我们测试下是否都下载成功管理员运行cmd，依次输入   123node -vnpm -v（这个是node附带的）git -v 继续管理员cmd，输入下面的代码下载hexo，不要急 1npm install hexo-cl">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Hexo搭建博客">
+<meta property="og:url" content="http://example.com/2025/09/02/Hexo%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/index.html">
 <meta property="og:site_name" content="Blog">
-<meta property="og:description" content="作作业业业">
+<meta property="og:description" content="Hexo搭建博客准备工具在开始之前请先    下载git，点击download for windows即可。   下载nodejs，下载长期支持版本。 下载steam++  接下来我们测试下是否都下载成功管理员运行cmd，依次输入   123node -vnpm -v（这个是node附带的）git -v 继续管理员cmd，输入下面的代码下载hexo，不要急 1npm install hexo-cl">
 <meta property="og:locale" content="zh_CN">
+<meta property="article:published_time" content="2025-09-02T11:39:08.000Z">
+<meta property="article:modified_time" content="2025-09-02T11:40:31.159Z">
 <meta property="article:author" content="struct_">
+<meta property="article:tag" content="Hexo">
+<meta property="article:tag" content="教程">
+<meta property="article:tag" content="干货">
 <meta name="twitter:card" content="summary">
 
 
-<link rel="canonical" href="http://example.com/">
+<link rel="canonical" href="http://example.com/2025/09/02/Hexo%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/">
 
 
-<script class="next-config" data-name="page" type="application/json">{"sidebar":"","isHome":true,"isPost":false,"lang":"zh-CN","comments":"","permalink":"","path":"index.html","title":""}</script>
+<script class="next-config" data-name="page" type="application/json">{"sidebar":"","isHome":false,"isPost":true,"lang":"zh-CN","comments":true,"permalink":"http://example.com/2025/09/02/Hexo%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/","path":"2025/09/02/Hexo搭建博客/","title":"Hexo搭建博客"}</script>
 
 <script class="next-config" data-name="calendar" type="application/json">""</script>
-<title>Blog</title>
+<title>Hexo搭建博客 | Blog</title>
   
 
 
@@ -94,7 +99,7 @@
 
     <a href="/" class="brand" rel="start">
       <i class="logo-line"></i>
-      <h1 class="site-title">Blog</h1>
+      <p class="site-title">Blog</p>
       <i class="logo-line"></i>
     </a>
       <p class="site-subtitle" itemprop="description">struct_ blog</p>
@@ -121,7 +126,7 @@
   
   <aside class="sidebar">
 
-    <div class="sidebar-inner sidebar-overview-active">
+    <div class="sidebar-inner sidebar-nav-active sidebar-toc-active">
       <ul class="sidebar-nav">
         <li class="sidebar-nav-toc">
           文章目录
@@ -134,6 +139,7 @@
       <div class="sidebar-panel-container">
         <!--noindex-->
         <div class="post-toc-wrap sidebar-panel">
+            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#Hexo%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2"><span class="nav-number">1.</span> <span class="nav-text">Hexo搭建博客</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%87%86%E5%A4%87%E5%B7%A5%E5%85%B7"><span class="nav-number">1.1.</span> <span class="nav-text">准备工具</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E6%90%AD%E5%BB%BA%E4%BB%93%E5%BA%93"><span class="nav-number">1.2.</span> <span class="nav-text">搭建仓库</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E7%94%9F%E6%88%90SSH-Keys"><span class="nav-number">1.3.</span> <span class="nav-text">生成SSH Keys</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E6%9C%AC%E5%9C%B0%E7%94%9F%E6%88%90%E5%8D%9A%E5%AE%A2%E5%86%85%E5%AE%B9"><span class="nav-number">1.4.</span> <span class="nav-text">本地生成博客内容</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E4%B8%8A%E7%BA%BF%E5%8D%9A%E5%AE%A2"><span class="nav-number">1.5.</span> <span class="nav-text">上线博客</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E7%BD%91%E7%AB%99%E8%B5%84%E6%96%99"><span class="nav-number">1.6.</span> <span class="nav-text">网站资料</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%A6%82%E4%BD%95%E4%B8%8A%E4%BC%A0%E6%96%87%E7%AB%A0"><span class="nav-number">1.7.</span> <span class="nav-text">如何上传文章</span></a></li></ol></li></ol></div>
         </div>
         <!--/noindex-->
 
@@ -192,16 +198,17 @@
 
     </div>
 
-    <div class="main-inner index posts-expand">
+    <div class="main-inner post posts-expand">
 
-    
+
+  
 
 
 <div class="post-block">
   
   
 
-  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
+  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="zh-CN">
     <link itemprop="mainEntityOfPage" href="http://example.com/2025/09/02/Hexo%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -215,13 +222,13 @@
     </span>
 
     <span hidden itemprop="post" itemscope itemtype="http://schema.org/CreativeWork">
-      <meta itemprop="name" content=" | Blog">
+      <meta itemprop="name" content="Hexo搭建博客 | Blog">
       <meta itemprop="description" content="">
     </span>
       <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
-          <a href="/2025/09/02/Hexo%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/" class="post-title-link" itemprop="url">Hexo搭建博客</a>
-        </h2>
+        <h1 class="post-title" itemprop="name headline">
+          Hexo搭建博客
+        </h1>
 
         <div class="post-meta-container">
           <div class="post-meta">
@@ -245,6 +252,13 @@
     </span>
 
   
+    <span class="post-meta-item" title="阅读次数" id="busuanzi_container_page_pv">
+      <span class="post-meta-item-icon">
+        <i class="far fa-eye"></i>
+      </span>
+      <span class="post-meta-item-text">阅读次数：</span>
+      <span id="busuanzi_value_page_pv"></span>
+    </span>
 </div>
 
         </div>
@@ -253,8 +267,7 @@
     
     
     
-    <div class="post-body" itemprop="articleBody">
-          <h1 id="Hexo搭建博客"><a href="#Hexo搭建博客" class="headerlink" title="Hexo搭建博客"></a>Hexo搭建博客</h1><h2 id="准备工具"><a href="#准备工具" class="headerlink" title="准备工具"></a>准备工具</h2><p>在开始之前请先  </p>
+    <div class="post-body" itemprop="articleBody"><h1 id="Hexo搭建博客"><a href="#Hexo搭建博客" class="headerlink" title="Hexo搭建博客"></a>Hexo搭建博客</h1><h2 id="准备工具"><a href="#准备工具" class="headerlink" title="准备工具"></a>准备工具</h2><p>在开始之前请先  </p>
 <ul>
 <li><a target="_blank" rel="noopener" href="https://git-scm.cn/">下载git</a>，点击download for windows即可。  </li>
 <li><a target="_blank" rel="noopener" href="https://nodejs.cn/download/">下载nodejs</a>，下载长期支持版本。</li>
@@ -334,7 +347,6 @@
 <p>大家可以参阅主题文档进行安装配置,问deepseek,看Bilibili@小宇boi的视频</p>
 <p>有什么问题的话欢迎评论。</p>
 
-      
     </div>
 
     
@@ -342,444 +354,27 @@
     
 
     <footer class="post-footer">
-        <div class="post-eof"></div>
-      
+          <div class="post-tags">
+              <a href="/tags/Hexo/" rel="tag"># Hexo</a>
+              <a href="/tags/%E6%95%99%E7%A8%8B/" rel="tag"># 教程</a>
+              <a href="/tags/%E5%B9%B2%E8%B4%A7/" rel="tag"># 干货</a>
+          </div>
+
+        
+
+          <div class="post-nav">
+            <div class="post-nav-item">
+                <a href="/2025/08/30/%E7%9A%93%E5%93%A5GAMEGO%E7%94%B5%E8%84%91114514%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8/" rel="prev" title="皓哥GAMEGO电脑114514有限公司">
+                  <i class="fa fa-angle-left"></i> 皓哥GAMEGO电脑114514有限公司
+                </a>
+            </div>
+            <div class="post-nav-item">
+            </div>
+          </div>
     </footer>
   </article>
 </div>
 
-
-
-
-    
-
-
-<div class="post-block">
-  
-  
-
-  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
-    <link itemprop="mainEntityOfPage" href="http://example.com/2025/08/30/%E7%9A%93%E5%93%A5GAMEGO%E7%94%B5%E8%84%91114514%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="/images/touxiang.png">
-      <meta itemprop="name" content="struct_">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="Blog">
-      <meta itemprop="description" content="作作业业业">
-    </span>
-
-    <span hidden itemprop="post" itemscope itemtype="http://schema.org/CreativeWork">
-      <meta itemprop="name" content=" | Blog">
-      <meta itemprop="description" content="">
-    </span>
-      <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
-          <a href="/2025/08/30/%E7%9A%93%E5%93%A5GAMEGO%E7%94%B5%E8%84%91114514%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8/" class="post-title-link" itemprop="url">皓哥GAMEGO电脑114514有限公司</a>
-        </h2>
-
-        <div class="post-meta-container">
-          <div class="post-meta">
-    <span class="post-meta-item">
-      <span class="post-meta-item-icon">
-        <i class="far fa-calendar"></i>
-      </span>
-      <span class="post-meta-item-text">发表于</span>
-
-      <time title="创建时间：2025-08-30 21:14:15" itemprop="dateCreated datePublished" datetime="2025-08-30T21:14:15+08:00">2025-08-30</time>
-    </span>
-    <span class="post-meta-item">
-      <span class="post-meta-item-icon">
-        <i class="far fa-calendar-check"></i>
-      </span>
-      <span class="post-meta-item-text">更新于</span>
-      <time title="修改时间：2025-08-31 10:05:05" itemprop="dateModified" datetime="2025-08-31T10:05:05+08:00">2025-08-31</time>
-    </span>
-    <span class="post-meta-item">
-      <span class="post-meta-item-icon">
-        <i class="far fa-folder"></i>
-      </span>
-      <span class="post-meta-item-text">分类于</span>
-        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-          <a href="/categories/%E5%AE%A3%E4%BC%A0/" itemprop="url" rel="index"><span itemprop="name">宣传</span></a>
-        </span>
-    </span>
-
-  
-</div>
-
-        </div>
-      </header>
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-          <h1 id="皓哥GAMEGO电脑114514有限公司"><a href="#皓哥GAMEGO电脑114514有限公司" class="headerlink" title="皓哥GAMEGO电脑114514有限公司"></a>皓哥GAMEGO电脑114514有限公司</h1><h2 id="ShuaiGe-Haoge-GAMEGO-Computer-114514-Co-Ltd"><a href="#ShuaiGe-Haoge-GAMEGO-Computer-114514-Co-Ltd" class="headerlink" title="ShuaiGe-Haoge GAMEGO Computer 114514 Co.,Ltd."></a>ShuaiGe-Haoge GAMEGO Computer 114514 Co.,Ltd.</h2><p>你还在为自己电脑性能不好而发愁吗？<br>你还在为有想玩的游戏但自己却没有吗而苦恼吗？<br>你还在想象自己的电脑梦吗？<br>来<strong>皓哥GAMEGO电脑114514有限公司</strong>一键解决你的烦恼！！！<br><img src="https://cdn.luogu.com.cn/upload/image_hosting/lig7jrr1.png"></p>
-
-      
-    </div>
-
-    
-    
-    
-
-    <footer class="post-footer">
-        <div class="post-eof"></div>
-      
-    </footer>
-  </article>
-</div>
-
-
-
-
-    
-
-
-<div class="post-block">
-  
-  
-
-  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
-    <link itemprop="mainEntityOfPage" href="http://example.com/2025/08/30/%E4%BF%A1%E6%81%AF%E8%AF%BE%E5%8F%AF%E4%BB%A5van%E7%9A%84%E5%B0%8F%E6%B8%B8%E6%88%8F/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="/images/touxiang.png">
-      <meta itemprop="name" content="struct_">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="Blog">
-      <meta itemprop="description" content="作作业业业">
-    </span>
-
-    <span hidden itemprop="post" itemscope itemtype="http://schema.org/CreativeWork">
-      <meta itemprop="name" content=" | Blog">
-      <meta itemprop="description" content="">
-    </span>
-      <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
-          <a href="/2025/08/30/%E4%BF%A1%E6%81%AF%E8%AF%BE%E5%8F%AF%E4%BB%A5van%E7%9A%84%E5%B0%8F%E6%B8%B8%E6%88%8F/" class="post-title-link" itemprop="url">信息课可以van的小游戏</a>
-        </h2>
-
-        <div class="post-meta-container">
-          <div class="post-meta">
-    <span class="post-meta-item">
-      <span class="post-meta-item-icon">
-        <i class="far fa-calendar"></i>
-      </span>
-      <span class="post-meta-item-text">发表于</span>
-
-      <time title="创建时间：2025-08-30 21:12:41" itemprop="dateCreated datePublished" datetime="2025-08-30T21:12:41+08:00">2025-08-30</time>
-    </span>
-    <span class="post-meta-item">
-      <span class="post-meta-item-icon">
-        <i class="far fa-calendar-check"></i>
-      </span>
-      <span class="post-meta-item-text">更新于</span>
-      <time title="修改时间：2025-08-31 10:03:57" itemprop="dateModified" datetime="2025-08-31T10:03:57+08:00">2025-08-31</time>
-    </span>
-    <span class="post-meta-item">
-      <span class="post-meta-item-icon">
-        <i class="far fa-folder"></i>
-      </span>
-      <span class="post-meta-item-text">分类于</span>
-        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-          <a href="/categories/%E4%BC%91%E9%97%B2%E5%A8%B1%E4%B9%90/" itemprop="url" rel="index"><span itemprop="name">休闲娱乐</span></a>
-        </span>
-    </span>
-
-  
-</div>
-
-        </div>
-      </header>
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-          <p>1.<a target="_blank" rel="noopener" href="https://www.2436.cn/game/19815_play.html">跑酷小子游北京(地铁跑酷北京)</a></p>
-<p>2.<a target="_blank" rel="noopener" href="https://slowroads.io/">开车驾驶小游戏</a></p>
-<p>3.<a target="_blank" rel="noopener" href="https://digdig.io/">digdig</a></p>
-<p>4.<a target="_blank" rel="noopener" href="https://florr.io/">florr</a></p>
-<p>5.<a target="_blank" rel="noopener" href="https://tiwb.github.io/catmario/">超级猫里奥</a></p>
-<p>6.<a target="_blank" rel="noopener" href="https://poki.com/zh">poki小游戏</a></p>
-<p>7.<a target="_blank" rel="noopener" href="https://zh.y8.com/">Y8小游戏</a></p>
-<p>8.<a target="_blank" rel="noopener" href="https://www.zhiwudazhanjiangshi.com/">植物大战僵尸</a></p>
-<h6 id="都看到这里了，不妨关注我B站"><a href="#都看到这里了，不妨关注我B站" class="headerlink" title="都看到这里了，不妨关注我B站"></a><del>都看到这里了，不妨<a target="_blank" rel="noopener" href="https://space.bilibili.com/1558680992">关注我B站</a></del></h6>
-      
-    </div>
-
-    
-    
-    
-
-    <footer class="post-footer">
-        <div class="post-eof"></div>
-      
-    </footer>
-  </article>
-</div>
-
-
-
-
-    
-
-
-<div class="post-block">
-  
-  
-
-  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
-    <link itemprop="mainEntityOfPage" href="http://example.com/2025/08/30/About-me/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="/images/touxiang.png">
-      <meta itemprop="name" content="struct_">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="Blog">
-      <meta itemprop="description" content="作作业业业">
-    </span>
-
-    <span hidden itemprop="post" itemscope itemtype="http://schema.org/CreativeWork">
-      <meta itemprop="name" content=" | Blog">
-      <meta itemprop="description" content="">
-    </span>
-      <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
-          <a href="/2025/08/30/About-me/" class="post-title-link" itemprop="url">About me</a>
-        </h2>
-
-        <div class="post-meta-container">
-          <div class="post-meta">
-    <span class="post-meta-item">
-      <span class="post-meta-item-icon">
-        <i class="far fa-calendar"></i>
-      </span>
-      <span class="post-meta-item-text">发表于</span>
-
-      <time title="创建时间：2025-08-30 21:11:35" itemprop="dateCreated datePublished" datetime="2025-08-30T21:11:35+08:00">2025-08-30</time>
-    </span>
-    <span class="post-meta-item">
-      <span class="post-meta-item-icon">
-        <i class="far fa-calendar-check"></i>
-      </span>
-      <span class="post-meta-item-text">更新于</span>
-      <time title="修改时间：2025-08-31 10:03:01" itemprop="dateModified" datetime="2025-08-31T10:03:01+08:00">2025-08-31</time>
-    </span>
-    <span class="post-meta-item">
-      <span class="post-meta-item-icon">
-        <i class="far fa-folder"></i>
-      </span>
-      <span class="post-meta-item-text">分类于</span>
-        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-          <a href="/categories/%E4%BB%8B%E7%BB%8D/" itemprop="url" rel="index"><span itemprop="name">介绍</span></a>
-        </span>
-    </span>
-
-  
-</div>
-
-        </div>
-      </header>
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-          <h3 id="Name-struct-struct-作作业业业-世界上就不应该有作业-皓哥-皓哥有78-haoge78"><a href="#Name-struct-struct-作作业业业-世界上就不应该有作业-皓哥-皓哥有78-haoge78" class="headerlink" title="Name: struct &#x2F; struct_ &#x2F; 作作业业业 &#x2F; 世界上就不应该有作业 &#x2F; 皓哥 &#x2F; 皓哥有78 &#x2F; haoge78"></a>Name: <em>struct</em> &#x2F; <em>struct</em>_ &#x2F; <em>作作业业业</em> &#x2F; <em>世界上就不应该有作业</em> &#x2F; <em>皓哥</em> &#x2F; <em>皓哥有78</em> &#x2F; <em>haoge78</em></h3><h3 id="gender-male"><a href="#gender-male" class="headerlink" title="gender:male"></a>gender:male</h3><h3 id="Email-3126715455-qq-com-playyangcheng-qq-com-playyangcheng-foxmail-com"><a href="#Email-3126715455-qq-com-playyangcheng-qq-com-playyangcheng-foxmail-com" class="headerlink" title="Email: 3126715455@qq.com &#x2F; playyangcheng@qq.com &#x2F; playyangcheng@foxmail.com"></a>Email: <em><a href="mailto:&#51;&#x31;&#x32;&#x36;&#55;&#x31;&#x35;&#52;&#53;&#53;&#64;&#x71;&#x71;&#46;&#x63;&#111;&#x6d;">3126715455@qq.com</a></em> &#x2F; <em><a href="mailto:&#x70;&#108;&#x61;&#x79;&#x79;&#97;&#110;&#x67;&#x63;&#x68;&#x65;&#x6e;&#x67;&#x40;&#113;&#x71;&#46;&#99;&#x6f;&#109;">playyangcheng@qq.com</a></em> &#x2F; <em><a href="mailto:&#x70;&#x6c;&#x61;&#121;&#x79;&#x61;&#110;&#103;&#x63;&#x68;&#x65;&#x6e;&#103;&#x40;&#102;&#x6f;&#x78;&#x6d;&#x61;&#105;&#108;&#46;&#x63;&#x6f;&#109;">playyangcheng@foxmail.com</a></em></h3><h3 id="QQ-3126715455"><a href="#QQ-3126715455" class="headerlink" title="QQ: 3126715455"></a>QQ: <em>3126715455</em></h3><h3 id="Wechat-jack-yang7"><a href="#Wechat-jack-yang7" class="headerlink" title="Wechat: jack-yang7"></a>Wechat: <em>jack-yang7</em></h3><h3 id="我的BiliBili：Here-or-https-space-bilibili-com-1558680992"><a href="#我的BiliBili：Here-or-https-space-bilibili-com-1558680992" class="headerlink" title="我的BiliBili：Here or https://space.bilibili.com/1558680992"></a>我的BiliBili：<a target="_blank" rel="noopener" href="https://space.bilibili.com/1558680992">Here</a> or <a target="_blank" rel="noopener" href="https://space.bilibili.com/1558680992">https://space.bilibili.com/1558680992</a></h3><h3 id="我的Luogu：Here-or-https-www-luogu-com-cn-user-1403817"><a href="#我的Luogu：Here-or-https-www-luogu-com-cn-user-1403817" class="headerlink" title="我的Luogu：Here or https://www.luogu.com.cn/user/1403817"></a>我的Luogu：<a target="_blank" rel="noopener" href="https://www.luogu.com.cn/user/1403817">Here</a> or <a target="_blank" rel="noopener" href="https://www.luogu.com.cn/user/1403817">https://www.luogu.com.cn/user/1403817</a></h3>
-      
-    </div>
-
-    
-    
-    
-
-    <footer class="post-footer">
-        <div class="post-eof"></div>
-      
-    </footer>
-  </article>
-</div>
-
-
-
-
-    
-
-
-<div class="post-block">
-  
-  
-
-  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
-    <link itemprop="mainEntityOfPage" href="http://example.com/2025/08/30/C-%E7%9B%B8%E5%85%B3%E7%9A%84%E8%AF%84%E6%B5%8B%E5%B7%A5%E5%85%B7%E5%8F%8A%E8%BD%AF%E4%BB%B6/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="/images/touxiang.png">
-      <meta itemprop="name" content="struct_">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="Blog">
-      <meta itemprop="description" content="作作业业业">
-    </span>
-
-    <span hidden itemprop="post" itemscope itemtype="http://schema.org/CreativeWork">
-      <meta itemprop="name" content=" | Blog">
-      <meta itemprop="description" content="">
-    </span>
-      <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
-          <a href="/2025/08/30/C-%E7%9B%B8%E5%85%B3%E7%9A%84%E8%AF%84%E6%B5%8B%E5%B7%A5%E5%85%B7%E5%8F%8A%E8%BD%AF%E4%BB%B6/" class="post-title-link" itemprop="url">C++相关的评测工具及软件</a>
-        </h2>
-
-        <div class="post-meta-container">
-          <div class="post-meta">
-    <span class="post-meta-item">
-      <span class="post-meta-item-icon">
-        <i class="far fa-calendar"></i>
-      </span>
-      <span class="post-meta-item-text">发表于</span>
-
-      <time title="创建时间：2025-08-30 21:10:40" itemprop="dateCreated datePublished" datetime="2025-08-30T21:10:40+08:00">2025-08-30</time>
-    </span>
-    <span class="post-meta-item">
-      <span class="post-meta-item-icon">
-        <i class="far fa-calendar-check"></i>
-      </span>
-      <span class="post-meta-item-text">更新于</span>
-      <time title="修改时间：2025-08-31 10:01:44" itemprop="dateModified" datetime="2025-08-31T10:01:44+08:00">2025-08-31</time>
-    </span>
-    <span class="post-meta-item">
-      <span class="post-meta-item-icon">
-        <i class="far fa-folder"></i>
-      </span>
-      <span class="post-meta-item-text">分类于</span>
-        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-          <a href="/categories/C/" itemprop="url" rel="index"><span itemprop="name">C++</span></a>
-        </span>
-    </span>
-
-  
-</div>
-
-        </div>
-      </header>
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-          <p><a target="_blank" rel="noopener" href="https://www.123684.com/s/EXQZjv-13cJH">123云盘链接1</a>提取码:zyzy</p>
-<p><a target="_blank" rel="noopener" href="https://www.123912.com/s/EXQZjv-13cJH">123云盘链接2</a>提取码:zyzy</p>
-
-      
-    </div>
-
-    
-    
-    
-
-    <footer class="post-footer">
-        <div class="post-eof"></div>
-      
-    </footer>
-  </article>
-</div>
-
-
-
-
-    
-
-
-<div class="post-block">
-  
-  
-
-  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
-    <link itemprop="mainEntityOfPage" href="http://example.com/2025/08/30/welcome-to-my-blog/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="/images/touxiang.png">
-      <meta itemprop="name" content="struct_">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="Blog">
-      <meta itemprop="description" content="作作业业业">
-    </span>
-
-    <span hidden itemprop="post" itemscope itemtype="http://schema.org/CreativeWork">
-      <meta itemprop="name" content=" | Blog">
-      <meta itemprop="description" content="">
-    </span>
-      <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
-          <a href="/2025/08/30/welcome-to-my-blog/" class="post-title-link" itemprop="url">welcome to my blog</a>
-        </h2>
-
-        <div class="post-meta-container">
-          <div class="post-meta">
-    <span class="post-meta-item">
-      <span class="post-meta-item-icon">
-        <i class="far fa-calendar"></i>
-      </span>
-      <span class="post-meta-item-text">发表于</span>
-
-      <time title="创建时间：2025-08-30 21:04:55" itemprop="dateCreated datePublished" datetime="2025-08-30T21:04:55+08:00">2025-08-30</time>
-    </span>
-    <span class="post-meta-item">
-      <span class="post-meta-item-icon">
-        <i class="far fa-calendar-check"></i>
-      </span>
-      <span class="post-meta-item-text">更新于</span>
-      <time title="修改时间：2025-08-31 10:05:51" itemprop="dateModified" datetime="2025-08-31T10:05:51+08:00">2025-08-31</time>
-    </span>
-    <span class="post-meta-item">
-      <span class="post-meta-item-icon">
-        <i class="far fa-folder"></i>
-      </span>
-      <span class="post-meta-item-text">分类于</span>
-        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-          <a href="/categories/%E4%BB%8B%E7%BB%8D/" itemprop="url" rel="index"><span itemprop="name">介绍</span></a>
-        </span>
-    </span>
-
-  
-</div>
-
-        </div>
-      </header>
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-          <h2 id="hello"><a href="#hello" class="headerlink" title="hello!"></a>hello!</h2><h2 id="这是我的个人博客"><a href="#这是我的个人博客" class="headerlink" title="这是我的个人博客"></a>这是我的个人博客</h2><h3 id="用Hexo搭建"><a href="#用Hexo搭建" class="headerlink" title="用Hexo搭建"></a>用Hexo搭建</h3><p><a target="_blank" rel="noopener" href="https://space.bilibili.com/1558680992">在Bilibili哔哩哔哩关注我</a></p>
-<p><a target="_blank" rel="noopener" href="https://www.luogu.com.cn/user/1403817">在Luogu洛谷关注我</a></p>
-<h2 id="THE-END"><a href="#THE-END" class="headerlink" title="THE END"></a>THE END</h2>
-      
-    </div>
-
-    
-    
-    
-
-    <footer class="post-footer">
-        <div class="post-eof"></div>
-      
-    </footer>
-  </article>
-</div>
 
 
 
